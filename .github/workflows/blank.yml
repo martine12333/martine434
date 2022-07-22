@@ -1,0 +1,119 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+/**
+
+   * Create By Dika Ardnt.
+
+   * Recode By Papah-Chan And KyuraSaja
+
+   * Contact Me on wa.me/6288292024190
+
+   * Follow https://github.com/DikaArdnt
+
+*/
+
+
+
+const fs = require('fs')
+
+const chalk = require('chalk')
+
+
+
+// Website Api
+
+global.APIs = {
+
+	zenz: 'https://zenzapis.xyz',
+
+    buildgi: 'https://www.linkpicture.com',
+
+    xteam: 'https://api.xteam.xyz',
+
+    wibuapi: 'https://api.waifu.pics',
+
+    anabot: 'https://anabotofc.herokuapp.com/'
+
+}
+
+
+
+// Apikey Website Api
+
+global.APIKeys = {
+
+    'https://api.xteam.xyz': 'cristian9407',
+
+	'https://zenzapis.xyz': 'B5FAB03200',
+
+    'https://anabotofc.herokuapp.com/': 'AnaBot', //hai kang recoder, bikin api sendiri di zenzapi.xyz pake email, jangan pake punya saya.
+
+}
+
+
+
+// KALO MAU RECODE TINGGALIN CREDIT DEVELOPER YA, JGN CUMA NUMPANG NAMA
+
+global.owner = ['17608914335']
+
+global.premium = ['17608914335']
+
+global.packname = 'Ichika-MD'
+
+global.author = 'Recode By Papah-Chan\n\n\ntemukan Ichika-MD di\nYoutube bit.ly/Papah-Chan'
+
+global.sessionName = 'session.data'
+
+global.prefa = ['','!','.','k','#']
+
+global.sp = '⭔'
+
+global.mess = {
+
+    success: '*Berhasil !*\n\n\n_Bantu Subscribe bit.ly/Papah-Chan_',
+
+    admin: 'Fitur Khusus Admin Group.',
+
+    botAdmin: 'Bot Harus Menjadi Admin Terlebih Dahulu.',
+
+    owner: 'Fitur Khusus Owner Bot.',
+
+    group: 'Fitur Digunakan Hanya Untuk Group.',
+
+    private: 'Fitur Digunakan Hanya Untuk Private Chat.',
+
+    credits: '-- *C R E D I T S* --\nTuhan Yang Maha Esa\nDikaArdnt As De
